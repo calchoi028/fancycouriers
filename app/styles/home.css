@@ -1,0 +1,49 @@
+/* #navbarNav {
+    flex-grow: 0;
+    width: 25vw;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #000f31;
+    padding: 0rem 1rem;
+}
+
+.navbar.container-fluid {
+    height:4vw
+}
+
+.navbar-nav {
+    width: inherit;
+    justify-content: space-evenly;
+}
+
+li.nav-item:hover {
+    background-color: #192747;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.linkup-logo {
+    width: 8vw;
+    height: 3vw;
+}
+
+.profile-picture-hotbar {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#id_visibility {
+    display: flex;
+} */
