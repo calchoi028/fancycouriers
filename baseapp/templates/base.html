@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Roboto Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+        <!-- Material Symbols Icons Stylesheet-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        {% block headerContent %}
+        {% endblock headerContent %}
+
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'base.css' %}">
+    </head>
+
+    <div class="fixed-area">
+        <div class="topbar">
+            <div class="topbar-container phone-container">
+                <span class="material-symbols-outlined">call</span>
+                <span class="topbar-text">(587) 335-1879</span>
+            </div>
+            <div class="topbar-container email-container">
+                <span class="material-symbols-outlined">mail</span>
+                <span class="topbar-text">fancycouriers@gmail.com</span>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="logo-container">
+                <img class ="logo-image" src="{% static 'images/Logo.png' %}">
+                <div class="logo-text-container">
+                    <span class="logo-text fancy">Fancy</span>
+                    <span class="logo-text couriers">Couriers</span>
+                </div>
+            </div>
+            <div class="nav-buttons">
+            </div>
+            <div class="end-TBD">
+            </div>
+        </nav>
+    </div>
+
+    {% block pageContent %}
+    {% endblock pageContent %}
+</html>
